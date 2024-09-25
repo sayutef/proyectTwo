@@ -1,0 +1,220 @@
+.card{
+    width: 300px;
+}
+.father{
+    display: flex;
+    justify-content: center;
+}
+.contentCard{
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px;
+}
+.Descuento{
+    background-color: #FF0000;
+    color: #FFFFFF;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    font-size: 20px;
+}
+.contentDes{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#mayor{
+    font-weight: 900;
+    padding: 0;
+    
+}
+#menor{
+    font-size: 13px;
+    align-items: center;
+}
+.separador{
+    width: 50%;
+}
+.separadorD{
+    width: 50%;
+}
+.boxCD{
+    width: 50%;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.boxC{
+    width: 50%;
+}
+
+.box1{
+    height: 504px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+.second{
+    margin: 30px;
+    padding: 30px;
+}
+.secondt{
+    margin: 30px;
+    padding: 30px;
+}
+#imgSims{
+    width: 120px;
+    border-radius: 5px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-content{
+    display: flex;
+}
+.second {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.boxSims {
+    width: 100%;
+}
+
+
+
+.card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.image{
+   width: 50%;
+}
+
+.textt{
+    width: 50%;
+}
+.desc{
+    background-color: #FF0000;
+    width: 60px;
+    height: 60px;
+    color: #FFFFFF;
+}
+.ofert{
+    display: flex;
+}
+.desMex{
+    font-weight: 200;
+    font-size: 12px;
+}
+
+
+.tree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.boxGo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.card23 {
+    width: 600px; 
+    height: 200px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.card-contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.image {
+    width: 50%;
+    text-align: center;
+}
+
+#imgGo {
+    width: 285px; 
+    height: 149px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.textt2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-left: 20px;
+}
+
+.contentCard {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.oferts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.desc2 {
+    background-color: #FF0000;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ofertt2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desMex2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #555;
+    text-decoration: line-through;
+}
+
+.ofertt2 mat-card-content:last-child {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}

@@ -1,0 +1,115 @@
+.slider-box{
+    width: 100%;
+}
+#imgPubg{
+    width: 1520px;
+    height: 636px;
+}
+#fiveNimg{
+    width: 1520px;
+    height: 636px;
+}
+#imgbraw{
+    width: 1520px;
+    height: 636px;
+}
+.slider-box ul{
+    display: flex;
+    padding: 0;
+    width: 220%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+.slider-box li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+.slider-box img{
+    width: 100%;
+}
+
+@keyframes slide{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+.minfather{
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+    padding: 8px;
+}
+#popuIMG{
+    height: 80px;
+}
+.texrpopu{
+    font-size: 40px;
+}
+#fornite{
+    width: 70px;
+    border-radius: 50%;
+}
+#league{
+    width: 70px;
+    border-radius: 50%;
+}
+#pubg{
+    width: 70px;
+    border-radius: 50%;
+}
+.imagens{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.box{
+    display: flex;
+    margin: 40px;
+}
+.box p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fathertree{
+    background-color: #220152;
+    
+}
+
+.fathertree h2{
+    color: #FFFFFF;
+    display:flex ;
+    justify-content: center;
+    margin: 30px;
+    padding: 22px;
+}
+
+
+
+
+.fatherfour{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+.fatherfour h2{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+

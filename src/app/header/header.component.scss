@@ -1,0 +1,49 @@
+
+.father{
+    background-color: #220152;
+    display: flex;
+    width: 100%;
+}
+.acomodar{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+#search{
+    width: 400px;
+    height: 47px;
+    border-radius: 15px;
+}
+.menu{
+    width: 80px;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#menuimg{
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+}
+#userImg{
+    height: 47px;
+}
+.userIcon{
+    padding: 8px;
+}
+.search{
+    padding: 10px;
+}
+
+.button-header{
+    padding: 10px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+#imgSearch{
+    height: 30px;
+    width: 30px;
+}
